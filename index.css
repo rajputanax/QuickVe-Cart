@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter' , sans-serif;
+}
+/* ..................................................................... */
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.d--flex{
+    display: flex;
+}
+.space--between{
+    justify-content: space-between;
+}
+
+.align--items{
+    align-items: center;
+}
+
+.max--width {
+    max-width: 1604px;
+    margin: 0 auto;
+    padding: 30px 32px;
+
+
+}
+
+
+
+
+
+/* ..........................TOP HEADER SECTION ........................................... */
+.wraper--top {
+    margin-bottom: 24px;
+}
+.tittle{
+    color: #2d2a6e;
+    font-weight: 700;
+    font-size: 26px;
+}
+.shop--offers{
+    background-color: #f7f7f7;
+}
+.slider--controlls{
+    padding-inline-end: 17px;
+    gap: 8px;
+}
+.slide-btn{
+    background-color: #ffffff;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 46px;
+}
+
+.view--all{
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* .............................BOTTOM PRODUCTS SECTION....................................................... */
+
+.jost{
+    font-family: "Jost", sans-serif !important;
+}
+.products--wrapper {
+    gap: 24px;
+    flex-wrap: wrap;
+
+}
+
+.product--card {
+    flex: 0 0 calc(25% - 22px);
+    background-color: #ffffff;
+    padding: 10px 14px;
+    border-radius: 10px;
+    min-height: 124px;
+    gap: 11px;
+ filter: drop-shadow(0  0  2px rgba(0,0,0,0.1));
+ 
+}
+.product-image{
+    width: 100px;
+    height: 100px;
+}
+.product--info{
+    max-width: 206px;
+}
+.badge{
+    width: 71px;
+    padding: 5px 7px;
+    border-radius: 9px;
+    background-color: #FFC633;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.shop-name{
+font-size: 13px;
+color: #2d2a6e;
+font-weight: 700;
+margin-bottom: 4px;
+}
+
+.shopping-benfit{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 23px;
+        color: #4d5574;
+}
+
+
+
+
+/* .................. Shop by Best Sellers Near You [styled--btn] ............................. */
+.bs{
+background-color: #f5f5f5;
+}
+.product--card-bs{
+    flex: 0 0 calc(25% - 15px);
+border-radius: 10px;
+background-color: #fff;
+filter: drop-shadow(0  2px  2px rgba(0,0,0,0.1));
+}
+.g-16{
+    gap: 16px;
+}
+.product--card-bs .shop-name{
+    font-size: 16px;
+}
+
+/* ........................................ shopping Cart ................................................................. */
+table.shopping-cart-table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.main-container {
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+}
+.left-container{
+    width: 100%;
+    max-width: 990px;
+}
+
+.mb--25{
+    margin-bottom: 25px;
+
+}
+.mb--44{
+    margin-bottom: 44px;
+}
+
+.shopping-ttile{
+    font-family: Jost;
+font-size: 26px;
+font-weight: 600;
+line-height: 37.57px;
+}
+
+.fs-24{
+    font-size: 24px;
+    font-weight: 500; 
+}
+.p--unset{
+    padding: unset;
+}
+
+.shopping-ttile > span{
+  
+font-size: 20px;
+font-weight: 400;
+line-height: 28.9px;
+
+
+
+}
+
+.shopping-cart-table thead tr th {
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26.01px;
+    border-bottom: 1px solid #e2e8ed;
+    padding: 18px 0;
+   
+    
+  }
+
+ .left-container .shopping-cart-table thead tr th:nth-child(1) {
+   text-align: left;
+  }
+
+  .shopping-cart-table  tbody tr td {
+    padding-top: 16px;
+  }
+ .shopping-cart-table tbody tr td:nth-child(1) {
+  width: 466px;
+  gap: 6px;
+}
+.mb--20{
+    margin-bottom: 20px;
+}
+ .shopping-cart-table tbody tr td:nth-child(2) {
+ width: 130px;
+}
+ .shopping-cart-table tbody tr td:nth-child(3) , :nth-child(4) {
+ width: 140px;
+}
+
+.picture{
+width: 125px;
+height: 125px;
+background-color: #F7F7F7;
+padding: 17px;
+}
+
+
+
+.product-desc{
+    font-family: Jost;
+font-size: 16px;
+font-weight: 500;
+line-height: 23.12px;
+padding: 4px 12px;
+text-align: center;
+}
+
+
+.counter{
+    width: 63.5px;
+    height: 59px;
+border: 1px solid #E2E8ED;
+text-align: center;
+
+}
+.counter--btn{
+    width: 30px;
+height: 30px;
+background-color: transparent;
+border: 1px solid #E2E8ED;
+}
+.counter--btn span{
+    font-size: 14px;
+}
+.j-center{
+    justify-content: center;
+}
+.fc-dir{
+    flex-direction: column;
+}
+
+.styled--btn{
+    border: none;
+    outline: none;
+    background-color: #108910;
+    padding: 16px 46px;
+      color: #fff;
+    border-radius: 30px ;
+   
+}
+.code-input{
+    width: 237px;
+height: 51px;
+border: 1px solid #E2E8ED;
+border-radius: 10px;
+padding: 13px 15px 14px;
+
+
+}
+.w_100{
+    width: 100%;
+}
+.g-15{
+    gap: 15px;
+}
+.cart-total{
+    border: 1px solid #E2E8ED;
+    padding:0  5px 5px;
+}
+.cart-inner--wrapper {
+    max-width: 390px;
+    width: 100%;
+    border: 1px solid #E2E8ED;
+padding: 24px  4px;
+gap: 22px;
+
+
+}
+
+.cart-title{
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    padding: 24px 5px 22px;
+    
+    
+
+}
+.pb-9 {
+    padding-bottom: 9px;
+}
+.spacing--adjustments{
+    border-bottom: 1px solid #e2e8ed;
+    padding: 0 22px 9px;
+}
+.checkout-btn {
+    white-space: nowrap;
+}
